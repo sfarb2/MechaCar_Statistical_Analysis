@@ -26,7 +26,21 @@ However, when evaluating the suspension coil data at the lot level, it is clear 
 
 ## T-Tests on Suspension Coils
 
+Below, the t-test of all suspension coil data shows that the difference in means is not statistically significant.
+
 ![T-Test All Lots](/ttest_all_lots.png)
+
+When limited to just Lot 1 of suspension coils, the means appear to match exactly.
+
+![T-Test Lot 1](/ttest_lot1.png)
+
+Lot 2 shows greater variability; however, the difference in means remains statistically insignificant.
+
+![T-Test Lot 2](/ttest_lot2.png)
+
+On the other hand, the suspension coils from Lot 3 exhibit a difference that likely cannot be explained by random chance. With a p-value of 0.04168, there's >95% chance that the difference in means here has an explicit, non-random cause.
+
+![T-Test Lot 3](/ttest_lot3.png)
 
 ## Study Design: MechaCar vs Competition
 
