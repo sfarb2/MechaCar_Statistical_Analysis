@@ -8,9 +8,9 @@ Pictured below are the summary statistics of the multiple linear regression.
 
 - Vehicle length and ground clearance both provided a non-random amount of variance to the mpg values in the dataset.
 
-_- Is the slope of the linear model considered to be zero? Why or why not?_
+- The slope of the linear module is not zero because each of the variable's estimates diverges from the overall intercept. Spoiler angle seems to be the least significant/flattest line.
 
-_- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?_
+ - This linear model predicts mpg of MechaCar prototypes fairly effectively because the R-squared value is significant. At >.68, a reasonably-strong positive correlation is exhibited in the linear regression.
 
 
 ## Summary Statistics on Suspension Coils
